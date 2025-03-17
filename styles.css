@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+*{
+	background-color:rgb(135,206,235)
+}
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:nth-child{
+	text:black;
+}
+p:last-child{
+	color:red;
+}
+* li{
+	background-color:grey;
+	width:50%;
+	padding:10px
+}
+#one, #three, #five{
+	background-color:white;
+}
+#one, #five{
+	font-size: 22px
+}
+#three{
+	background-color:pink;
+}
